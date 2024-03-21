@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:id="@+id/Phone_Image"
+        android:layout_width="405dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/Phone_Title"
+        app:srcCompat="@drawable/phone1" />
+
+    <TextView
+        android:id="@+id/Phone_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="IPhone 1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phone_Image" />
+
+    <TextView
+        android:id="@+id/Phone_Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: 100"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Phone_Title" />
+
+    <TextView
+        android:id="@+id/Phone_Discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discount: 10.10%"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Phone_Price" />
+
+    <TextView
+        android:id="@+id/Phone_Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating: 4.69"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Phone_Discount" />
+
+    <TextView
+        android:id="@+id/Phone_Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="12dp"
+        android:text="Description: An apple mobile which is nothing like apple"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Phone_Rating" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/Phone_Description" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
