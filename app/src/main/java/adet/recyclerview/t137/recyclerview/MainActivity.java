@@ -12,6 +12,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements RecyclerViewInterface {
 
     ArrayList<PhoneModel> phoneModels = new ArrayList<>();
+    Phone_RecyclerViewAdapter adapter;
 
     int[] phoneImages = {R.drawable.phone1, R.drawable.phone2,
             R.drawable.phone3, R.drawable.phone4,
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
 
         setUpPhoneModels();
 
-        Phone_RecyclerViewAdapter adapter = new Phone_RecyclerViewAdapter(this,phoneModels, this);
+        adapter = new Phone_RecyclerViewAdapter(this,phoneModels, this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -71,5 +72,11 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
         intent.putExtra("RATING", phoneModels.get(position).getRating());
 
         startActivity(intent);
+    }
+
+    @Override
+    public void onItemLongClick(int position) {
+        phoneModels.remove(position);
+        adapter.notifyItemRemoved(position);
     }
 }
