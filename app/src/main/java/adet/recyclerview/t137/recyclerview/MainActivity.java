@@ -4,79 +4,91 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements RecyclerViewInterface {
+import javax.xml.transform.ErrorListener;
 
-    ArrayList<PhoneModel> phoneModels = new ArrayList<>();
-    Phone_RecyclerViewAdapter adapter;
+public class MainActivity extends AppCompatActivity {
 
-    int[] phoneImages = {R.drawable.phone1, R.drawable.phone2,
-            R.drawable.phone3, R.drawable.phone4,
-            R.drawable.phone5, R.drawable.phone6,
-            R.drawable.phone7, R.drawable.phone8,
-            R.drawable.phone9, R.drawable.phone10,
-            R.drawable.ashinobu, R.drawable.achiz,
-            R.drawable.baseline_3k_24, R.drawable.baseline_4k_24,
-            R.drawable.baseline_5k_24, R.drawable.baseline_6k_24,
-            R.drawable.baseline_7k_24, R.drawable.baseline_8k_24,
-            R.drawable.baseline_9k_24, R.drawable.baseline_9k_plus_24,
-    };
+    private RecyclerView recyclerView;
+    private RequestQueue requestQueue;
+
+    private List<Item> mList;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        RecyclerView recyclerView = findViewById(R.id.mRecyclerView);
 
-        setUpPhoneModels();
-
-        adapter = new Phone_RecyclerViewAdapter(this,phoneModels, this);
-        recyclerView.setAdapter(adapter);
+        recyclerView = findViewById(R.id.recyclerview);
+        recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-    }
+        requestQueue = VollySingleton.getmInstance(this).getRequestQueue();
 
-    private void setUpPhoneModels() {
-        //grabbing arrays on "res/values/strings.xml"
-        String[] phoneNames = getResources().getStringArray(R.array.phones_name);
-        String[] phonePrice = getResources().getStringArray(R.array.phones_price);
-        String[] phoneDiscount = getResources().getStringArray(R.array.phones_discount);
-        String[] phoneDescription = getResources().getStringArray(R.array.phones_description);
-        String[] phoneRating = getResources().getStringArray(R.array.phones_rating);
-
-        for (int i = 0; i<phoneNames.length; i++) {
-            phoneModels.add(new PhoneModel(phoneNames[i],
-                    phonePrice[i],
-                    phoneDiscount[i],
-                    phoneImages[i],
-                    phoneDescription[i],
-                    phoneRating[i]));
-        }
+        mList = new ArrayList<>();
+        fetchData();
 
     }
 
-    @Override
-    public void onItemClick(int position) {
-        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+    private void fetchData() {
 
-        intent.putExtra("NAME", phoneModels.get(position).getPhoneName());
-        intent.putExtra("PRICE", phoneModels.get(position).getPhonePrice());
-        intent.putExtra("DISCOUNT", phoneModels.get(position).getPhoneDiscount());
-        intent.putExtra("DESCRIPTION", phoneModels.get(position).getDescription());
-        intent.putExtra("IMAGE", phoneModels.get(position).getImage());
-        intent.putExtra("RATING", phoneModels.get(position).getRating());
+        String url = "https://dummyjson.com/products/";
 
-        startActivity(intent);
-    }
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                try {
+                    JSONArray jsonArray = response.getJSONArray("products");
 
-    @Override
-    public void onItemLongClick(int position) {
-        phoneModels.remove(position);
-        adapter.notifyItemRemoved(position);
+                    for(int i = 0; i<jsonArray.length(); i++){
+                        JSONObject jsonObject =jsonArray.getJSONObject(i);
+                        String thumbnailurl = jsonObject.getString("thumbnail");
+                        String title = jsonObject.getString("title");
+                        String price = jsonObject.getString("price");
+                        String discountPercentage = jsonObject.getString("discountPercentage");
+                        String brand = jsonObject.getString("brand");
+                        String stock = jsonObject.getString("stock");
+                        String category = jsonObject.getString("category");
+
+                        Item post = new Item(thumbnailurl, title, price, discountPercentage, brand, stock, category);
+                        mList.add(post);
+
+                    }
+
+                    PostAdapter adapter = new PostAdapter(MainActivity.this, mList);
+                    recyclerView.setAdapter(adapter);
+
+                    adapter.notifyDataSetChanged();
+
+                } catch (JSONException e) {
+                    throw new RuntimeException(e);
+                }
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(MainActivity.this, error.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        requestQueue.add(jsonObjectRequest);
     }
 }

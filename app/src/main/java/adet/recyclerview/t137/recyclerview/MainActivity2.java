@@ -1,12 +1,13 @@
 package adet.recyclerview.t137.recyclerview;
 
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.ImageView;
-
-import androidx.appcompat.app.AppCompatActivity;
+import android.widget.TextView;
+import com.bumptech.glide.Glide;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -15,35 +16,44 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        String name = getIntent().getStringExtra("NAME");
-        String price = getIntent().getStringExtra("PRICE");
-        String discount = getIntent().getStringExtra("DISCOUNT");
-        String description = getIntent().getStringExtra("DESCRIPTION");
-        int image = getIntent().getIntExtra("IMAGE", 0);
-        String rating = getIntent().getStringExtra("RATING");
+        Intent intent = getIntent();
+        if (intent != null) {
+            String thumbnailurl = intent.getStringExtra("thumbnailurl");
+            String title = intent.getStringExtra("title");
+            String price = intent.getStringExtra("price");
+            String discountPercentage = intent.getStringExtra("discountPercentage");
+            String description = intent.getStringExtra("description");
+            String brand = intent.getStringExtra("brand");
+            String category = intent.getStringExtra("category");
+            String stock = intent.getStringExtra("stock");
 
-        TextView nameTextView = findViewById(R.id.Phone_Title);
-        TextView priceTextView = findViewById(R.id.Phone_Price);
-        TextView discountTextView = findViewById(R.id.Phone_Discount);
-        TextView descriptionTextView = findViewById(R.id.Phone_Description);
-        ImageView Phone_Image = findViewById(R.id.Phone_Image);
-        TextView ratingTextView = findViewById(R.id.Phone_Rating);
+            ImageView imageView = findViewById(R.id.imageView);
+            TextView titleTextView = findViewById(R.id.title);
+            TextView priceTextView = findViewById(R.id.price);
+            TextView discountPercentageTextView = findViewById(R.id.discountPercentage);
+            TextView descriptionTextView = findViewById(R.id.description);
+            TextView brandTextView = findViewById(R.id.brand);
+            TextView categoryTextView = findViewById(R.id.category);
+            TextView stockTextView = findViewById(R.id.stock);
 
+            Glide.with(this).load(thumbnailurl).into(imageView);
+            titleTextView.setText(title);
+            priceTextView.setText("Price: " + price);
+            discountPercentageTextView.setText("Discount: " + discountPercentage);
+            descriptionTextView.setText("Description: " + description);
+            brandTextView.setText("Brand: " + brand);
+            categoryTextView.setText("Category: " + category);
+            stockTextView.setText("Stock: " + stock);
 
-        nameTextView.setText(name);
-        priceTextView.setText(price);
-        discountTextView.setText(discount);
-        descriptionTextView.setText(description);
-        Phone_Image.setImageResource(image);
-        ratingTextView.setText(rating);
-
-
-        Button backButton = findViewById(R.id.button);
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish(); // Finish the current activity (MainActivity2) and go back to the previous one
-            }
-        });
+            // Back button functionality
+            Button backButton = findViewById(R.id.button);
+            backButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Navigate back to MainActivity
+                    finish();
+                }
+            });
+        }
     }
 }
