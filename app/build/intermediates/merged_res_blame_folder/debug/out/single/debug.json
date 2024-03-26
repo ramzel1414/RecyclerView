@@ -1,170 +1,178 @@
 [
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_baseline_9k_24.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\baseline_9k_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_phone1.jpg.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\phone1.jpg"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_baseline_9k_plus_24.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\baseline_9k_plus_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_baseline_3k_24.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\baseline_3k_24.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_phone5.jpg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\phone5.jpg"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_baseline_8k_24.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\baseline_8k_24.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_phone3.jpg.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\phone3.jpg"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_phone7.jpg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\phone7.jpg"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_achiz.png.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\achiz.png"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_baseline_2k_24.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\baseline_2k_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_phone8.jpg.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\phone8.jpg"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_baseline_1k_24.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\baseline_1k_24.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_phone10.jpeg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\phone10.jpeg"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\layout_activity_main2.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\layout\\activity_main2.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_rounded_image.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\rounded_image.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_phone6.png.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\phone6.png"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_phone5.jpg.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\phone5.jpg"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\layout\\activity_main2.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_phone9.jpg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\phone9.jpg"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_baseline_6k_24.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\baseline_6k_24.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_phone2.jpg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\phone2.jpg"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_phone7.jpg.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\phone7.jpg"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_baseline_7k_24.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\baseline_7k_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_phone6.png.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\phone6.png"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\layout_recycler_view_row.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\layout\\recycler_view_row.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_phone10.jpeg.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\phone10.jpeg"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_baseline_5k_24.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\baseline_5k_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_baseline_9k_plus_24.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\baseline_9k_plus_24.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_baseline_9k_24.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\baseline_9k_24.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_phone4.jpg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\phone4.jpg"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_phone2.jpg.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\phone2.jpg"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_baseline_3k_24.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\baseline_3k_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_baseline_4k_24.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\baseline_4k_24.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_baseline_8k_24.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\baseline_8k_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_baseline_2k_24.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\baseline_2k_24.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_ashinobu.jpg.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\ashinobu.jpg"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_baseline_1k_24.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\baseline_1k_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_ashinobu.jpg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\ashinobu.jpg"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_phone9.jpg.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\phone9.jpg"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_phone8.jpg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\phone8.jpg"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_phone4.jpg.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\phone4.jpg"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_baseline_6k_24.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\baseline_6k_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_baseline_7k_24.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\baseline_7k_24.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_phone1.jpg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\phone1.jpg"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\layout_recycler_view_row.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\layout\\recycler_view_row.xml"
     },
     {
-        "merged": "adet.recyclerview.t137.recyclerview.app-merged_res-31:/layout_activity_main2.xml.flat",
-        "source": "adet.recyclerview.t137.recyclerview.app-main-33:/layout/activity_main2.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "adet.recyclerview.t137.recyclerview.app-merged_res-32:/layout_activity_main2.xml.flat",
+        "source": "adet.recyclerview.t137.recyclerview.app-main-34:/layout/activity_main2.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_business.jpg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\business.jpg"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_baseline_5k_24.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\baseline_5k_24.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_baseline_4k_24.xml.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\baseline_4k_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_achiz.png.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\achiz.png"
+    },
+    {
+        "merged": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-merged_res-32:\\drawable_phone3.jpg.flat",
+        "source": "C:\\Users\\Ramon\\.gradle\\daemon\\8.2\\adet.recyclerview.t137.recyclerview.app-main-34:\\drawable\\phone3.jpg"
     }
 ]

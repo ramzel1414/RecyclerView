@@ -1,10 +1,5 @@
 R_DEF: Internal format may change without notice
 local
-array phones_description
-array phones_discount
-array phones_name
-array phones_price
-array phones_rating
 color black
 color white
 drawable achiz
@@ -19,6 +14,7 @@ drawable baseline_7k_24
 drawable baseline_8k_24
 drawable baseline_9k_24
 drawable baseline_9k_plus_24
+drawable business
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable phone1
@@ -31,18 +27,23 @@ drawable phone6
 drawable phone7
 drawable phone8
 drawable phone9
-id Phone_Description
-id Phone_Discount
-id Phone_Image
-id Phone_Price
-id Phone_Rating
-id Phone_Title
+drawable rounded_image
+id brand
 id button
+id cardView
+id cardView2
+id category
+id description
+id discountPercentage
+id frameView
 id imageView
-id mRecyclerView
+id imageView2
+id price
+id rating
+id recyclerview
+id stock
 id textView
-id textView2
-id textView3
+id title
 layout activity_main
 layout activity_main2
 layout recycler_view_row

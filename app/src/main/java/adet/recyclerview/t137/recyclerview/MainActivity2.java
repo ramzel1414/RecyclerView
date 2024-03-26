@@ -39,7 +39,7 @@ public class MainActivity2 extends AppCompatActivity {
             Glide.with(this).load(thumbnailurl).into(imageView);
             titleTextView.setText(title);
             priceTextView.setText("Price: " + price);
-            discountPercentageTextView.setText("Discount: " + discountPercentage);
+            discountPercentageTextView.setText("Discount(%): " + discountPercentage);
             descriptionTextView.setText("Description: " + description);
             brandTextView.setText("Brand: " + brand);
             categoryTextView.setText("Category: " + category);

@@ -5,21 +5,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EEDDDD"
     tools:context=".MainActivity2">
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="405dp"
-        android:layout_height="258dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
+    <FrameLayout
+        android:id="@+id/frameView"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#023e8a"
         android:layout_marginBottom="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frameView"
         app:layout_constraintBottom_toTopOf="@+id/title"
+        android:src="@drawable/phone1"
         />
 
     <TextView
@@ -64,7 +77,7 @@
         android:id="@+id/discountPercentage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Discount: 10.10%"
+        android:text="Discount(%): 10.10"
         android:layout_marginStart="12dp"
         android:layout_marginTop="8dp"
         android:textSize="16dp"
@@ -125,10 +138,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="Back"
+        android:backgroundTint="#023e8a"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintTop_toBottomOf="@+id/description" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

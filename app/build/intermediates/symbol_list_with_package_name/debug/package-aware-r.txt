@@ -77,11 +77,6 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
-array phones_description
-array phones_discount
-array phones_name
-array phones_price
-array phones_rating
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2993,6 +2988,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable business
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3093,6 +3089,7 @@ drawable phone6
 drawable phone7
 drawable phone8
 drawable phone9
+drawable rounded_image
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3103,12 +3100,6 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
-id Phone_Description
-id Phone_Discount
-id Phone_Image
-id Phone_Price
-id Phone_Rating
-id Phone_Title
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3200,12 +3191,16 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id brand
 id button
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardView
+id cardView2
 id carryVelocity
+id category
 id center
 id centerCrop
 id centerInside
@@ -3247,6 +3242,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3259,6 +3255,7 @@ id disableHome
 id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
+id discountPercentage
 id disjoint
 id dragAnticlockwise
 id dragClockwise
@@ -3299,10 +3296,12 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frameView
 id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3322,6 +3321,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id immediateStop
 id included
 id indeterminate
@@ -3343,7 +3343,6 @@ id linear
 id listMode
 id list_item
 id m3_side_sheet
-id mRecyclerView
 id marquee
 id masked
 id match_constraint
@@ -3456,11 +3455,14 @@ id pin
 id position
 id postLayout
 id pressed
+id price
 id progress_circular
 id progress_horizontal
 id radio
+id rating
 id ratio
 id rectangles
+id recyclerview
 id report_drawn
 id reverseSawtooth
 id right
@@ -3525,6 +3527,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id stock
 id stop
 id stretch
 id submenuarrow
@@ -3552,8 +3555,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
-id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

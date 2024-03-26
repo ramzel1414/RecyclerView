@@ -61,13 +61,14 @@ public class MainActivity extends AppCompatActivity {
                         JSONObject jsonObject =jsonArray.getJSONObject(i);
                         String thumbnailurl = jsonObject.getString("thumbnail");
                         String title = jsonObject.getString("title");
+                        String description = jsonObject.getString("description");
                         String price = jsonObject.getString("price");
                         String discountPercentage = jsonObject.getString("discountPercentage");
                         String brand = jsonObject.getString("brand");
                         String stock = jsonObject.getString("stock");
                         String category = jsonObject.getString("category");
 
-                        Item post = new Item(thumbnailurl, title, price, discountPercentage, brand, stock, category);
+                        Item post = new Item(thumbnailurl, title, description, price, discountPercentage, brand, stock, category);
                         mList.add(post);
 
                     }

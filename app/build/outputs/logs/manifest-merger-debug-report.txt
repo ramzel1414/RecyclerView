@@ -1,13 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Ramon\.gradle\caches\transforms-3\7bf998f9f4bdd84f156fbe08c4253964\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Ramon\.gradle\caches\transforms-3\3c6b14974eada3b737e4646addd01d24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Ramon\.gradle\caches\transforms-3\8c60153bca6de4306b04ab8bc2348ea8\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Ramon\.gradle\caches\transforms-3\b1741c2033ae6eec819ff5ea06ca1704\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\Ramon\.gradle\caches\transforms-3\626e83045c4a70e01e92319ab02718f4\transformed\glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\Ramon\.gradle\caches\transforms-3\e768328bbfffbdf343ced896e67753c4\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\21f8526f0d48b1fdd53d78929a1fa6eb\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Ramon\.gradle\caches\transforms-3\65612b5fae6c2aa4265237c94fd623b4\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\Ramon\.gradle\caches\transforms-3\72cb2cc7c196b45167f19aa23aa86efb\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
@@ -35,10 +37,12 @@ MERGED from [androidx.customview:customview:1.1.0] C:\Users\Ramon\.gradle\caches
 MERGED from [androidx.core:core:1.9.0] C:\Users\Ramon\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\618cbb17bba8c81668c4dc9604ffc868\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\019add5e771534bb68424657ad94cdee\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\5ed20899a643be0e8f8917ec92e14e8b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Ramon\.gradle\caches\transforms-3\45e12b02bd624fddb57a436a9b46947a\transformed\gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Ramon\.gradle\caches\transforms-3\53310ce78d05a40e3f3519bd4c85c83d\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Ramon\.gradle\caches\transforms-3\6aebe797d2fce5c8727f4e04e3cbbf9a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\9b710c4adc9712c14d4578c905862b5b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\a8408acbaf38eb85a7a0901ad90bee93\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\5ed20899a643be0e8f8917ec92e14e8b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\feb0a3ac9e84cfe6ed06dcb2e7c34f51\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Ramon\.gradle\caches\transforms-3\70e53ad4261b5c22a2a3cd01f79e2489\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\1ea147692660202aba1cc4c7e92c579d\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -55,9 +59,13 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Ramon\.
 		INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:5:5-27:19
-INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:7:5-29:19
+INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:7:5-29:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Ramon\.gradle\caches\transforms-3\7bf998f9f4bdd84f156fbe08c4253964\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Ramon\.gradle\caches\transforms-3\7bf998f9f4bdd84f156fbe08c4253964\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Ramon\.gradle\caches\transforms-3\3c6b14974eada3b737e4646addd01d24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -68,54 +76,54 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Ramon\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Ramon\.gradle\caches\transforms-3\7537b831cd7e02c36f17372471ebcd05\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.9.0] C:\Users\Ramon\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.9.0] C:\Users\Ramon\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\5ed20899a643be0e8f8917ec92e14e8b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\5ed20899a643be0e8f8917ec92e14e8b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Ramon\.gradle\caches\transforms-3\6aebe797d2fce5c8727f4e04e3cbbf9a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Ramon\.gradle\caches\transforms-3\6aebe797d2fce5c8727f4e04e3cbbf9a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\9b710c4adc9712c14d4578c905862b5b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\9b710c4adc9712c14d4578c905862b5b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\5ed20899a643be0e8f8917ec92e14e8b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\5ed20899a643be0e8f8917ec92e14e8b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
 		INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Ramon\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:13:9-50
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:15:9-50
 	android:dataExtractionRules
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:7:9-65
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:9:9-65
 activity#adet.recyclerview.t137.recyclerview.MainActivity
-ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:18:9-25:20
 	android:exported
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:23:27-74
 activity#adet.recyclerview.t137.recyclerview.MainActivity2
-ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:25:9-51
+ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:27:9-51
 	android:name
-		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:25:19-48
+		ADDED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:27:19-48
 uses-sdk
 INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ramon\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml
@@ -128,6 +136,10 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Ramon\.gradl
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Ramon\.gradle\caches\transforms-3\8c60153bca6de4306b04ab8bc2348ea8\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Ramon\.gradle\caches\transforms-3\b1741c2033ae6eec819ff5ea06ca1704\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Ramon\.gradle\caches\transforms-3\b1741c2033ae6eec819ff5ea06ca1704\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\Ramon\.gradle\caches\transforms-3\626e83045c4a70e01e92319ab02718f4\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\Ramon\.gradle\caches\transforms-3\626e83045c4a70e01e92319ab02718f4\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\Ramon\.gradle\caches\transforms-3\e768328bbfffbdf343ced896e67753c4\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\Ramon\.gradle\caches\transforms-3\e768328bbfffbdf343ced896e67753c4\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\21f8526f0d48b1fdd53d78929a1fa6eb\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\21f8526f0d48b1fdd53d78929a1fa6eb\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Ramon\.gradle\caches\transforms-3\65612b5fae6c2aa4265237c94fd623b4\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
@@ -182,14 +194,18 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ramon\.gradle\
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\618cbb17bba8c81668c4dc9604ffc868\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\019add5e771534bb68424657ad94cdee\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\019add5e771534bb68424657ad94cdee\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\5ed20899a643be0e8f8917ec92e14e8b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\5ed20899a643be0e8f8917ec92e14e8b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Ramon\.gradle\caches\transforms-3\45e12b02bd624fddb57a436a9b46947a\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Ramon\.gradle\caches\transforms-3\45e12b02bd624fddb57a436a9b46947a\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Ramon\.gradle\caches\transforms-3\53310ce78d05a40e3f3519bd4c85c83d\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Ramon\.gradle\caches\transforms-3\53310ce78d05a40e3f3519bd4c85c83d\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Ramon\.gradle\caches\transforms-3\6aebe797d2fce5c8727f4e04e3cbbf9a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Ramon\.gradle\caches\transforms-3\6aebe797d2fce5c8727f4e04e3cbbf9a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\9b710c4adc9712c14d4578c905862b5b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\9b710c4adc9712c14d4578c905862b5b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\a8408acbaf38eb85a7a0901ad90bee93\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\a8408acbaf38eb85a7a0901ad90bee93\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\5ed20899a643be0e8f8917ec92e14e8b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ramon\.gradle\caches\transforms-3\5ed20899a643be0e8f8917ec92e14e8b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\feb0a3ac9e84cfe6ed06dcb2e7c34f51\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ramon\.gradle\caches\transforms-3\feb0a3ac9e84cfe6ed06dcb2e7c34f51\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Ramon\.gradle\caches\transforms-3\70e53ad4261b5c22a2a3cd01f79e2489\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44

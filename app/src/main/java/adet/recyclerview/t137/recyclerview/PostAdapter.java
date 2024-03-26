@@ -38,6 +38,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostHolder> {
         holder.setImageView(item.getThumbnailurl());
         holder.setmTitle(item.getTitle());
         holder.setmPrice(item.getPrice());
+        holder.setmCategory(item.getCategory());
         holder.setmDiscountPercentage(item.getDiscountPercentage());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -48,7 +49,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostHolder> {
                 intent.putExtra("title", item.getTitle());
                 intent.putExtra("price", item.getPrice());
                 intent.putExtra("discountPercentage", item.getDiscountPercentage());
-                intent.putExtra("description", "Description for " + item.getTitle()); // This could be fetched from API if available
+                intent.putExtra("description", item.getDescription()); // This could be fetched from API if available
                 intent.putExtra("brand", item.getBrand()); // Add brand
                 intent.putExtra("category", item.getCategory()); // Add category
                 intent.putExtra("stock", item.getStock()); // Add stock
@@ -88,9 +89,14 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostHolder> {
             mPrice.setText("Price: " + price);
         }
 
+        public void setmCategory(String category){
+            mPrice = view.findViewById(R.id.category);
+            mPrice.setText("Category: " + category);
+        }
+
         public void setmDiscountPercentage(String discountPercentage){
             mDiscountPercentage = view.findViewById(R.id.discountPercentage);
-            mDiscountPercentage.setText("Discount: " + discountPercentage);
+            mDiscountPercentage.setText("Discount: " + discountPercentage + "%");
         }
 
 
